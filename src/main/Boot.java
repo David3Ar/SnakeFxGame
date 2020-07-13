@@ -1,11 +1,11 @@
 package main;
 
-import view.JavaFxGameView;
+import view.javafx.GameView;
 
 public class Boot {
 	
 	public static void main(String[] args) {	
-		JavaFxGameView view = new JavaFxGameView();
+		GameView view = new GameView();
 		view.startApp();		
 	}
 
